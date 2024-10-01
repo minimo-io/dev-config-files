@@ -3,12 +3,10 @@
 # p10k configure
 # reference: https://www.josean.com/posts/how-to-setup-alacritty-terminal
 
-import = [
-    '~/.config/alacritty/themes/dark_pastels.toml'
-]
+import = ['~/.config/alacritty/themes/dark_pastels.toml']
 
 [env]
-TERM = "xterm-256color"
+# TERM = "xterm-256color"
 
 [window]
 padding.x = 10
@@ -25,6 +23,6 @@ size = 14
 
 [keyboard]
 bindings = [
-  { key = "Right", mods = "Alt", chars = "\u001BF" },
-  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+    { key = "Right", mods = "Alt", chars = "\u001BF" },
+    { key = "Left", mods = "Alt", chars = "\u001BB" },
 ]
