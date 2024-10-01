@@ -6,6 +6,8 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
+//
+// Just another comment from minimo, this is quite fast!
 {
   "telemetry": {
     "diagnostics": true,
