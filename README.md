@@ -10,9 +10,12 @@
 Reference: https://www.josean.com/posts/how-to-setup-alacritty-terminal
 
 ## MacOS configs
+
 Repeat keys as fast as possible
+
 -   `defaults write -g KeyRepeat -int 1`
 -   `defaults write -g InitialKeyRepeat -int 10`
 
 Avoid MacOs from showing special characters when long-pressing a key, repeat instead.
-- `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false`
+
+-   `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false`
