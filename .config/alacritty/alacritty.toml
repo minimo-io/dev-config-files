@@ -1,9 +1,4 @@
-# themes : https://github.com/alacritty/alacritty-theme.git
-# install p10k: `brew install powerlevel10k` -> https://github.com/romkatv/powerlevel10k
-# p10k configure
-# reference: https://www.josean.com/posts/how-to-setup-alacritty-terminal
-
-import = ['~/.config/alacritty/themes/dark_pastels.toml']
+import = ['~/.config/alacritty/themes/citylights.toml']
 
 [env]
 # TERM = "xterm-256color"
