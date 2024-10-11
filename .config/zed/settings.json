@@ -7,9 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "assistant": {
+        "default_model": {
+            "provider": "ollama",
+            "model": "cas/llama-3.2-3b-instruct:latest"
+        },
+        "version": "2"
+    },
     "telemetry": {
         "diagnostics": true,
-        "metrics": false
+        "metrics": true
     },
     "features": {
         // "inline_completion_provider": "supermaven"
@@ -17,9 +24,9 @@
     "ui_font_size": 15,
     "buffer_font_size": 14,
     "theme": {
-        "mode": "system",
+        "mode": "dark",
         "light": "One Light",
-        "dark": "One Dark"
+        "dark": "Solarizy Dark"
     },
     "buffer_font_family": "MesloLGS Nerd Font Mono",
     "tab_size": 4,
