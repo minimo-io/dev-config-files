@@ -10,7 +10,7 @@
     "assistant": {
         "default_model": {
             "provider": "ollama",
-            "model": "cas/llama-3.2-3b-instruct:latest"
+            "model": "bad-llama:latest"
         },
         "version": "2"
     },
@@ -19,7 +19,7 @@
         "metrics": true
     },
     "features": {
-        // "inline_completion_provider": "supermaven"
+        "inline_completion_provider": "none"
     },
     "ui_font_size": 15,
     "buffer_font_size": 14,
@@ -32,6 +32,10 @@
     "tab_size": 4,
     "format_on_save": "on",
     "terminal": {
-        "font_family": "MesloLGS Nerd Font Mono"
-    }
+        "font_family": "MesloLGS Nerd Font Mono",
+        // for some bug i need this on a spanish keyboard
+        // to be able to enter a | pipe
+        "option_as_meta": false
+    },
+    "wrap_guides": [0, 90]
 }
