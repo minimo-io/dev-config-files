@@ -7,10 +7,21 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "soft_wrap": "preferred_line_length",
+    "preferred_line_length": 120,
+    // "line_guide": 120,
+    // "wrap_guides": [0, 120],
+    // "languages": {
+    //   "C": {
+    //     "format_on_save": "language_server",
+    //     "preferred_line_length": 64,
+    //     "soft_wrap": "preferred_line_length"
+    //   }
+    // },
     "assistant": {
         "default_model": {
             "provider": "ollama",
-            "model": "bad-llama:latest"
+            "model": "granite-code:3b"
         },
         "version": "2"
     },
@@ -26,16 +37,29 @@
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "Solarizy Dark"
+        "dark": "Minimo Dark"
     },
-    "buffer_font_family": "MesloLGS Nerd Font Mono",
+    // "buffer_font_family": "MesloLGS Nerd Font Mono",
+    "buffer_font_family": "Menlo",
+    "buffer_font_weight": 400,
     "tab_size": 4,
     "format_on_save": "on",
     "terminal": {
-        "font_family": "MesloLGS Nerd Font Mono",
+        // "font_family": "MesloLGS Nerd Font Mono",
+        "font_family": "Menlo",
         // for some bug i need this on a spanish keyboard
         // to be able to enter a | pipe
         "option_as_meta": false
     },
-    "wrap_guides": [0, 90]
+
+    "inlay_hints": {
+        "enabled": false,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+        "show_background": false,
+        "edit_debounce_ms": 700,
+        "scroll_debounce_ms": 50
+    }
+    // "active_pane_magnification": 2.0
 }

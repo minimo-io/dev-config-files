@@ -11,13 +11,32 @@
         "bindings": {
             // "shift shift": "file_finder::Toggle"
             // cmd-k cmd-e
-            "cmd-k cmd-e": "terminal_panel::ToggleFocus"
+            "cmd-k cmd-e": "terminal_panel::ToggleFocus",
+            "cmd-f": "buffer_search::FocusEditor"
+        }
+    },
+    {
+        "context": "Editor && mode == full",
+        "bindings": {
+            "cmd-f": "buffer_search::Deploy"
         }
     },
     {
         "context": "Editor",
         "bindings": {
-            // "j k": ["workspace::SendKeystrokes", "escape"]
+            "cmd-shift-g": ["editor::ToggleComments", { "advance_downwards": false }]
+        }
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "cmd-shift-f": "project_search::SearchInNew"
+        }
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "cmd-shift-f": "project_search::SearchInNew"
         }
     }
 ]
