@@ -147,7 +147,7 @@
                 "players": [],
                 "syntax": {
                     "property": {
-                        "color": "#52a8ff",
+                        "color": "#82D2CE",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -159,7 +159,7 @@
                         "font_weight": null
                     },
                     "attribute": {
-                        "color": "#c472fb",
+                        "color": "#AAA0FA",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -177,7 +177,7 @@
                         "font_weight": null
                     },
                     "constant": {
-                        "color": "#52a8ff",
+                        "color": "#D0CFD6",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -201,19 +201,19 @@
                         "font_weight": 700
                     },
                     "function": {
-                        "color": "#c472fb",
+                        "color": "#82D2CE",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
                     },
                     "keyword": {
-                        "color": "#f75f8f",
+                        "color": "#83D6C5",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
                     },
                     "label": {
-                        "color": "#52a8ff",
+                        "color": "#FAD075",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -231,19 +231,19 @@
                         "font_weight": null
                     },
                     "number": {
-                        "color": "#52a8ff",
+                        "color": "#EBC88D",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
                     },
                     "operator": {
-                        "color": "#f75f8f",
+                        "color": "#CECDD5",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
                     },
                     "string": {
-                        "color": "#62c073",
+                        "color": "#E394DC",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -273,7 +273,7 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#62c073",
+                        "color": "#FAD075",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
@@ -291,13 +291,13 @@
                         "font_weight": null
                     },
                     "type": {
-                        "color": "#c472fb",
+                        "color": "#EFB080",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
                     },
                     "variable": {
-                        "color": "#ededed",
+                        "color": "#988AD9",
                         "background_color": null,
                         "font_style": null,
                         "font_weight": null
