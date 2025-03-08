@@ -1,3 +1,6 @@
+vim.opt.nu = true  -- enable line numbers
+vim.opt.relativenumber = false -- relative line numbers
+
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
@@ -34,7 +37,18 @@ require("lazy").setup({
     {
     'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' }
     },
-    { 'nvim-treesitter/nvim-treesitter', build=":TSUpdate" }
+    { 'nvim-treesitter/nvim-treesitter', build=":TSUpdate" },
+    {
+  "nvim-tree/nvim-tree.lua",
+  version = "*",
+  lazy = false,
+  dependencies = {
+    "nvim-tree/nvim-web-devicons",
+  },
+  config = function()
+    require("nvim-tree").setup {}
+  end,
+}
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
@@ -47,8 +61,12 @@ require("lazy").setup({
 
 require("catppuccin").setup()
 local builtin = require("telescope.builtin")
+
+-- KEYMAPS
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<cr>')
+
 vim.cmd.colorscheme "catppuccin"
 
 -- for TS
