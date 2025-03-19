@@ -33,7 +33,17 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
     -- add your plugins here
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+      "folke/tokyonight.nvim",
+      lazy = false,         -- Load the plugin immediately
+      priority = 1000,      -- Ensures it's loaded before other plugins
+      config = function()
+        vim.cmd([[colorscheme tokyonight-night]])
+        -- Optional: additional configuration, e.g., style variants
+        -- vim.g.tokyonight_style = "storm"  -- options: "storm", "night", "day"
+      end,
+    },    
     {
     'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' }
     },
@@ -79,7 +89,7 @@ require("lazy").setup({
 
 
 
-require("catppuccin").setup()
+require("tokyonight").setup()
 local builtin = require("telescope.builtin")
 
 -- KEYMAPS
@@ -88,7 +98,7 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<cr>')
 vim.keymap.set('n', '<leader>lg', '<cmd>LazyGit<cr>')
 
-vim.cmd.colorscheme "catppuccin"
+-- vim.cmd.colorscheme "catppuccin"
 
 -- for TS
 local config = require("nvim-treesitter.configs")

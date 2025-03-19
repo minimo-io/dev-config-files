@@ -22,4 +22,5 @@ bindings = [
 ]
 
 [general]
-import = ['~/.config/alacritty/themes/tokyo-night.toml']
+# import = ['~/.config/alacritty/themes/tokyo-night.toml']
+import = ['~/.config/alacritty/themes/tokyonight-night-nvim.toml']
