@@ -39,7 +39,7 @@ require("lazy").setup({
       lazy = false,         -- Load the plugin immediately
       priority = 1000,      -- Ensures it's loaded before other plugins
       config = function()
-        vim.cmd([[colorscheme tokyonight-night]])
+        vim.cmd([[colorscheme tokyonight-moon]])
         -- Optional: additional configuration, e.g., style variants
         -- vim.g.tokyonight_style = "storm"  -- options: "storm", "night", "day"
       end,

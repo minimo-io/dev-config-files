@@ -30,23 +30,23 @@
         "metrics": true
     },
     "features": {
-        "edit_prediction_provider": "none"
+        "inline_completion_provider": "none"
     },
-    "ui_font_size": 14,
-    "buffer_font_size": 12.5,
+    "ui_font_size": 15,
+    "buffer_font_size": 13.0,
     "theme": {
         "mode": "dark",
         "light": "One Light",
         "dark": "Minimo Dark"
     },
-    "buffer_font_family": "MesloLGS Nerd Font Mono",
-    // "buffer_font_family": "Menlo",
+    // "buffer_font_family": "MesloLGS Nerd Font Mono",
+    "buffer_font_family": "Menlo",
     "buffer_font_weight": 400,
     "tab_size": 4,
     "format_on_save": "on",
     "terminal": {
-        "font_family": "MesloLGS Nerd Font Mono",
-        // "font_family": "Menlo",
+        // "font_family": "MesloLGS Nerd Font Mono",
+        "font_family": "Menlo",
         // for some bug i need this on a spanish keyboard
         // to be able to enter a | pipe
         "option_as_meta": false

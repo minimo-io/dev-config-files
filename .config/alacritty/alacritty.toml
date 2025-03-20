@@ -5,7 +5,7 @@
 [window]
 padding.x = 10
 padding.y = 10
-dimensions = { columns = 120, lines = 30 }
+dimensions = { columns = 150, lines = 35 }
 
 #decorations = "buttonless"
 opacity = 0.8
@@ -23,4 +23,4 @@ bindings = [
 
 [general]
 # import = ['~/.config/alacritty/themes/tokyo-night.toml']
-import = ['~/.config/alacritty/themes/tokyonight-night-nvim.toml']
+import = ['~/.config/alacritty/themes/tokyonight-moon-nvim.toml']
