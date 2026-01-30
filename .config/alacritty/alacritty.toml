@@ -1,4 +1,5 @@
-import = ['~/.config/alacritty/themes/tokyonight-moon-nvim.toml']
+# import = ['~/.config/alacritty/themes/tokyonight-moon-nvim.toml']
+import = ['~/.config/alacritty/themes/cubiq-emerald-night.toml']
 # import = ['~/.config/alacritty/themes/tokyo-night.toml']
 
 [window]

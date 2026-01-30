@@ -1,0 +1,63 @@
+# -----------------------------------------------------------------------------
+# Emerald Night Alacritty Colors
+# Theme: Emerald Night
+# Author: Ngonidzashe Mangudya <ngmangudya@gmail.com>
+# Ported from Zed editor theme
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#000000'
+foreground = '#ffffff'
+
+# Cursor colors
+[colors.cursor]
+cursor = '#19a400'
+text = '#000000'
+
+# Selection colors
+[colors.selection]
+background = '#3b3b4d'
+text = 'CellForeground'
+
+# Search colors
+[colors.search.matches]
+background = '#f59e0b'
+foreground = '#000000'
+
+[colors.search.focused_match]
+background = '#fbbf24'
+foreground = '#000000'
+
+# Normal colors
+[colors.normal]
+black = '#000000'
+red = '#ef4444'
+green = '#22c55e'
+yellow = '#f59e0b'
+blue = '#3b82f6'
+magenta = '#a855f7'
+cyan = '#00d9ff'
+white = '#e2e8f0'
+
+# Bright colors
+[colors.bright]
+black = '#5a6677'
+red = '#f87171'
+green = '#4ade80'
+yellow = '#fbbf24'
+blue = '#b4adff'
+magenta = '#d946ef'
+cyan = '#22d3ee'
+white = '#ffffff'
+
+# Dim colors
+[colors.dim]
+black = '#000000'
+red = '#ef4444'
+green = '#22c55e'
+yellow = '#f59e0b'
+blue = '#3b82f6'
+magenta = '#a855f7'
+cyan = '#00d9ff'
+white = '#64748b'
